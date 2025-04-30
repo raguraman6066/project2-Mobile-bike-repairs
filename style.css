@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-image: linear-gradient(#fc5e55, #fa4083);
+  font-size: 1.125rem;
+}
+.container {
+  width: 1024px;
+
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+.cards {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.card1 {
+  background-image: url(images/image-background-card1.jpg);
+  background-size: cover;
+  min-height: 250px;
+
+  background-position: bottom;
+  width: 30%;
+}
+.card2 {
+  background-image: url(images/image-background-card2.jpg);
+  background-size: cover;
+
+  min-height: 250px;
+  background-position: bottom;
+  width: 30%;
+}
+.card3 {
+  min-height: 250px;
+  background-image: url(images/image-background-card3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 30%;
+}
+
+.herobox1 {
+  flex: 2;
+  padding-right: 100px;
+}
+.herobox1 p {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.herobox2 {
+  flex: 1;
+}
+
+.h1 {
+  font-size: 3.25rem;
+  color: white;
+  font-family: "Playfair", serif;
+  margin-bottom: 1rem;
+}
